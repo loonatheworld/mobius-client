@@ -1,0 +1,29 @@
+{
+  "extends": "@sapphire/ts-config",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ES2020",
+    "lib": [
+      "ESNext",
+      "ESNext.Array",
+      "ESNext.AsyncIterable",
+      "ESNext.Intl",
+      "ESNext.Symbol",
+      "ESNext.BigInt"
+    ],
+    "importsNotUsedAsValues": "preserve",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "dist",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "skipLibCheck": true
+  },
+  "outDir": "../dist",
+  "rootDir": "./src",
+  "include": [
+    "./src/**/*.ts",
+    "./test/**/*.ts"
+  ]
+}

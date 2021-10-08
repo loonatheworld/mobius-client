@@ -1,0 +1,33 @@
+{
+  "name": "@loonatheworld/mobius-client",
+  "version": "0.1.0",
+  "description": "a",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --clean",
+    "watch": "tsc -w",
+    "lint": "eslint src/ --ext ts",
+    "lint:fix": "eslint src/ --ext ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loonatheworld/mobius-client.git"
+  },
+  "author": "loonatheworld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loonatheworld/mobius-client/issues"
+  },
+  "homepage": "https://github.com/loonatheworld/mobius-client#readme",
+  "devDependencies": {
+    "@sapphire/eslint-config": "^3.3.0",
+    "@sapphire/ts-config": "^3.1.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "axios": "^0.22.0"
+  }
+}
